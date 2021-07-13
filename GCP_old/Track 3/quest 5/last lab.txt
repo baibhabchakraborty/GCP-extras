@@ -1,0 +1,5 @@
+while running the command "DAGS_BUCKET=us-central1-composer-advanc-YOURDAGSBUCKET-bucket", please replace the bucket with the bucket name present in Enviroment details page of the composer (Please refer the attach screenshot). 
+
+Note: Please do not use gs:// and /dag part from the bucket folder, only use the middle portion of the bucket folder as bucket name.
+
+export DAGS_BUCKET=us-central1-composer-advanc-us-central1-composer-advanc-740098e2-bucket
